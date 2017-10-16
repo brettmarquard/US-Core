@@ -1,0 +1,25 @@
+﻿{
+  "path": "http://hl7.org/fhir/STU3",
+  "canonical": "http://hl7.org/fhir/us/core",
+  "igId": "ig",
+  "igName": "US Core",
+  "errorCount": 1,
+  "version": "3.0.1",
+  "revision": "11917",
+  "versionFull": "3.0.1-11917",
+  "toolingVersion": "3.1.0",
+  "toolingRevision": "12293",
+  "toolingVersionFull": "3.1.0-12293",
+  "totalFiles": 125,
+  "processedFiles": 291,
+  "genDate": "Mon, Oct 16, 2017 16:53-0400",
+  "ig": {
+    "id": "ig",
+    "name": "US Core",
+    "url": "http://hl7.org/fhir/us/core/ImplementationGuide/ig",
+    "version": "1.0.1",
+    "status": "draft",
+    "experimental": true,
+    "publisher": "HL7 US Realm Steering Committee"
+  }
+}

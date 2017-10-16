@@ -1,0 +1,53 @@
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/STU3/careplan.html#CarePlan">resourceType</a>" : "CarePlan",
+  "<a href="http://hl7.org/fhir/STU3/careplan.html#CarePlan.id">id</a>" : "colonoscopy",
+  "<a href="http://hl7.org/fhir/STU3/careplan.html#CarePlan.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/STU3/careplan.html#CarePlan.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">status</a>" : "additional",
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+			&lt;strong&gt;Assessment&lt;/strong&gt;
+			&lt;ol&gt;
+				&lt;li&gt;Recurrent GI bleed of unknown etiology; hypotension perhaps secondary to this but as likely secondary to polypharmacy.&lt;/li&gt;
+				&lt;li&gt;Acute on chronic anemia secondary to #1.&lt;/li&gt;
+				&lt;li&gt;Azotemia, acute renal failure with volume loss secondary to #1.&lt;/li&gt;
+				&lt;li&gt;Hyperkalemia secondary to #3 and on ACE and K+ supplement.&lt;/li&gt;
+				&lt;li&gt;Other chronic diagnoses as noted above, currently stable.&lt;/li&gt;
+			&lt;/ol&gt;
+			&lt;table&gt;
+				&lt;thead&gt;
+					&lt;tr&gt;
+						&lt;th&gt;Planned Activity&lt;/th&gt;
+						&lt;th&gt;Planned Date&lt;/th&gt;
+					&lt;/tr&gt;
+				&lt;/thead&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td&gt;Colonoscopy&lt;/td&gt;
+						&lt;td&gt;April 21, 2000&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/STU3/careplan.html#CarePlan.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/STU3/careplan.html#CarePlan.intent">intent</a>" : "order",
+  "<a href="http://hl7.org/fhir/STU3/careplan.html#CarePlan.category">category</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.code">code</a>" : "assess-plan"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/STU3/careplan.html#CarePlan.subject">subject</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a>" : "Patient/example",
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.display">display</a>" : "Amy Shaw"
+  }
+}</pre>

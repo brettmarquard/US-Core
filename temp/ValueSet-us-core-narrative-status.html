@@ -1,0 +1,40 @@
+---
+# jekyll header
+---
+
+{% include header.html %}
+
+<!-- ============BreadCrumbs=============== -->
+
+{% include container-start.html %}
+
+  <!-- ============CONTENT CONTENT=============== -->
+
+<!--
+<h2>Narrative Status</h2>
+
+<p>
+Formats: <a href="ValueSet-us-core-narrative-status.xml.html">XML</a>, <a href="ValueSet-us-core-narrative-status.json.html">JSON</a>, <a href="ValueSet-us-core-narrative-status.ttl.html">Turtle</a>
+</p>
+
+-->
+
+<!-- include ValueSet-us-core-narrative-status-html.xhtml   -->
+
+{% include ValueSet-us-core-narrative-status-summary.xhtml %}
+
+This value set is used by:
+
+{% include ValueSet-us-core-narrative-status-xref.xhtml %}
+
+{% include ValueSet-us-core-narrative-status-cld.xhtml %}
+
+<h3>Expansion</h3>
+
+{% include ValueSet-us-core-narrative-status-expansion.xhtml %}
+
+  <!-- ==============END CONTENT END CONTENT=================== -->
+
+{% include container-end.html %}
+
+{% include footer.html %}

@@ -1,0 +1,40 @@
+---
+# jekyll header
+---
+
+{% include header.html %}
+
+<!-- ============BreadCrumbs=============== -->
+
+{% include container-start.html %}
+
+  <!-- ============CONTENT CONTENT=============== -->
+
+<!--
+<h2>OMB Ethnicity Categories</h2>
+
+<p>
+Formats: <a href="ValueSet-omb-ethnicity-category.xml.html">XML</a>, <a href="ValueSet-omb-ethnicity-category.json.html">JSON</a>, <a href="ValueSet-omb-ethnicity-category.ttl.html">Turtle</a>
+</p>
+
+-->
+
+<!-- include ValueSet-omb-ethnicity-category-html.xhtml   -->
+
+{% include ValueSet-omb-ethnicity-category-summary.xhtml %}
+
+This value set is used by:
+
+{% include ValueSet-omb-ethnicity-category-xref.xhtml %}
+
+{% include ValueSet-omb-ethnicity-category-cld.xhtml %}
+
+<h3>Expansion</h3>
+
+{% include ValueSet-omb-ethnicity-category-expansion.xhtml %}
+
+  <!-- ==============END CONTENT END CONTENT=================== -->
+
+{% include container-end.html %}
+
+{% include footer.html %}

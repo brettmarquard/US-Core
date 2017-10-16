@@ -1,0 +1,78 @@
+<pre class="xml">
+
+&lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;us-core-problem&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#instant">value</a>=&quot;2016-05-25T02:59:08.250-04:00&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+      &lt;h2&gt;Problem Value Set&lt;/h2&gt;
+      &lt;p&gt;This describes the problem. Diagnosis/Problem List is broadly defined as a series of brief statements that catalog a patient's medical, nursing, dental, social, preventative and psychiatric events and issues that are relevant to that patient's healthcare (e.g., signs, symptoms, and defined conditions)&lt;/p&gt;
+      &lt;p&gt;
+        &lt;b&gt;Copyright Statement:&lt;/b&gt; This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement
+      &lt;/p&gt;
+      &lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;No current problems or disability 160245001&lt;/li&gt;
+        &lt;li&gt;Include codes from http://snomed.info/sct where concept  is-a  404684003&lt;/li&gt;
+        &lt;li&gt;Include codes from http://snomed.info/sct where concept  is-a  243796009&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.url">url</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/us/core/ValueSet/us-core-problem&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;urn:ietf:rfc:3986&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;urn:oid:2.16.840.1.113883.3.88.12.3221.7.4&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;1.0.1&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Problem Value Set&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.status">status</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#dateTime">value</a>=&quot;2016-05-25T02:59:08-04:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.publisher">publisher</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;HL7 US Realm Steering Committee&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;other&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a>
+             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;http://phinvads.cdc.gov/vads/ViewValueSet.action?oid=2.16.840.1.113883.3.88.12.3221.7.4&quot;/&gt;
+    &lt;/telecom&gt;
+  &lt;/contact&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.description">description</a>
+               <a href="http://hl7.org/fhir/STU3/datatypes.html#markdown">value</a>=&quot;This describes the problem. Diagnosis/Problem List is broadly defined as a series of brief statements that catalog a patient&amp;#39;s medical, nursing, dental, social, preventative and psychiatric events and issues that are relevant to that patient&amp;#39;s healthcare (e.g., signs, symptoms, and defined conditions)&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;US&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;United States Minor Outlying Islands (the)&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/jurisdiction&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.copyright">copyright</a>
+             <a href="http://hl7.org/fhir/STU3/datatypes.html#markdown">value</a>=&quot;This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose">compose</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include">include</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.system">system</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;160245001&quot;/&gt;
+      &lt;/concept&gt;
+    &lt;/include&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include">include</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.system">system</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter">filter</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.property">property</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;concept&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.op">op</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;is-a&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.value">value</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;404684003&quot;/&gt;
+      &lt;/filter&gt;
+    &lt;/include&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include">include</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.system">system</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter">filter</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.property">property</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;concept&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.op">op</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;is-a&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.value">value</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;243796009&quot;/&gt;
+      &lt;/filter&gt;
+    &lt;/include&gt;
+  &lt;/compose&gt;
+&lt;/ValueSet&gt;</pre>

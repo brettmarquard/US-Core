@@ -1,0 +1,40 @@
+---
+# jekyll header
+---
+
+{% include header.html %}
+
+<!-- ============BreadCrumbs=============== -->
+
+{% include container-start.html %}
+
+  <!-- ============CONTENT CONTENT=============== -->
+
+<!--
+<h2>US Core ICD-10-PCS Procedure Codes</h2>
+
+<p>
+Formats: <a href="ValueSet-us-core-procedure-icd10pcs.xml.html">XML</a>, <a href="ValueSet-us-core-procedure-icd10pcs.json.html">JSON</a>, <a href="ValueSet-us-core-procedure-icd10pcs.ttl.html">Turtle</a>
+</p>
+
+-->
+
+<!-- include ValueSet-us-core-procedure-icd10pcs-html.xhtml   -->
+
+{% include ValueSet-us-core-procedure-icd10pcs-summary.xhtml %}
+
+This value set is used by:
+
+{% include ValueSet-us-core-procedure-icd10pcs-xref.xhtml %}
+
+{% include ValueSet-us-core-procedure-icd10pcs-cld.xhtml %}
+
+<h3>Expansion</h3>
+
+{% include ValueSet-us-core-procedure-icd10pcs-expansion.xhtml %}
+
+  <!-- ==============END CONTENT END CONTENT=================== -->
+
+{% include container-end.html %}
+
+{% include footer.html %}

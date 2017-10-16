@@ -1,0 +1,14 @@
+<h4>Constraints</h4>
+<table class="list">
+<tr><td width="60"><b>Id</b></td><td><b>Path</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
+<tr><td>dom-2</td><td>CarePlan</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
+<tr><td>dom-1</td><td>CarePlan</td><td>If the resource is contained in another resource, it SHALL NOT contain any narrative<br/>: contained.text.empty()</td><td></td></tr>
+<tr><td>dom-4</td><td>CarePlan</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
+<tr><td>dom-3</td><td>CarePlan</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource<br/>: contained.where(('#'+id in %resource.descendants().reference).not()).empty()</td><td></td></tr>
+<tr><td>txt-1</td><td>CarePlan.text.div</td><td>The narrative SHALL contain only the basic html formatting elements and attributes described in chapters 7-11 (except section 4 of chapter 9) and 15 of the HTML 4.0 standard, &lt;a&gt; elements (either name or href), images and internally contained style attributes<br/>: htmlchecks()</td><td></td></tr>
+<tr><td>txt-2</td><td>CarePlan.text.div</td><td>The narrative SHALL have some non-whitespace content<br/>: htmlchecks()</td><td></td></tr>
+<tr><td>us-core-1</td><td>CarePlan.category</td><td>Must have a category of 'assess-plan' and a code system 'http://hl7.org/fhir/us/core/CodeSystem/careplan-category'<br/>: where(coding.system='http://hl7.org/fhir/us/core/CodeSystem/careplan-category' and coding.code='assess-plan').exists()</td><td></td></tr>
+<tr><td>ele-1</td><td>CarePlan.activity</td><td>All FHIR elements must have a @value or children<br/>: hasValue() | (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>cpl-3</td><td>CarePlan.activity</td><td>Provide a reference or detail, not both<br/>: detail.empty() or reference.empty()</td><td></td></tr>
+<tr><td>ele-1</td><td>CarePlan.activity.detail</td><td>All FHIR elements must have a @value or children<br/>: hasValue() | (children().count() &gt; id.count())</td><td></td></tr>
+</table>

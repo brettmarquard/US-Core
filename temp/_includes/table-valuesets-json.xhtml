@@ -1,0 +1,46 @@
+ <tr><td><a href="ValueSet-us-core-substance.json.html">US Core Substance-Reactant for Intolerance and Negation Codes</a> </td><td><p>A substance or other type of agent (e.g., sunshine) that may be associated with an intolerance reaction event or a propensity to such an event. These concepts are expected to be at a more general level of abstraction (ingredients versus more specific formulations). This value set is quite general and includes concepts that may never cause an adverse event, particularly the included SNOMED CT concepts. The code system-specific value sets in this grouping value set are intended to provide broad coverage of all kinds of agents, but the expectation for use is that the chosen concept identifier for a substance should be appropriately specific and drawn from the available code systems in the following priority order:  1. NDF-RT codes for drug class allergies  2. RxNorm codes limited to term types (TTY) , 'BN' Brand Name, 'IN' ingredient, 'MIN' multiple ingredient, and 'PIN' precise ingredient for drug ingredient allergies  3. SNOMED CT including concepts from SCTID 716186003 No Known allergy (situation) and if no other code from above code systems are available</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-substance-sct.json.html">US Core SNOMED CT Substances Other Than Clinical Drugs</a> </td><td><p>SNOMED CT concepts from SCTID 716186003 No Known allergy (situation) and substance concepts Other Than Clinical Drug Substances that are not represented by RXNORM  drug concepts or FDA UNII substance concepts. This value set is meant to be quite broad and includes many substances that may never be prescribed or be a reactant. It does not remove all overlap with RXNORM and UNII; for those concepts, the alternative code system should be chosen.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-substance-rxnorm.json.html">US Core Substance RxNorm Codes</a> </td><td><p>All RxNorm codes that have TTY = IN,PIN,MIN,BN, but TTY != OCD.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-substance-ndfrt.json.html">US Core Substance ND-FRT codes</a> </td><td><p>All ND-FRT NUIs for concepts that are subsumed by 'Mechanism of Action - N0000000223', 'Physiologic Effect - N0000009802' or 'Chemical Structure - N0000000002'.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-provider-specialty.json.html">US Core Provider Speciality (NUCC)</a> </td><td><p>Provider speciality roles codes which are composed of the NUCC Health Care Provider Taxonomy Code Set for providers</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-provider-role.json.html">US Core Provider Role (NUCC)</a> </td><td><p>Provider roles codes which are composed of the NUCC Health Care Provider Taxonomy Code Set classification codes for providers. Only concepts with a classification and no specialization are included.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-procedure-icd10pcs.json.html">US Core ICD-10-PCS Procedure Codes</a> </td><td><p>This value set defines a set of codes from ICD10-PCS that can be used to indicate a type of procedure performed</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-procedure-code.json.html">US Core Procedure Codes</a> </td><td><p>This example value set defines a set of codes that can be used to indicate the type of procedure: a specific code indicating type of procedure performed, from CPT or SNOMED CT.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-problem.json.html">Problem Value Set</a> </td><td><p>This describes the problem. Diagnosis/Problem List is broadly defined as a series of brief statements that catalog a patient's medical, nursing, dental, social, preventative and psychiatric events and issues that are relevant to that patient's healthcare (e.g., signs, symptoms, and defined conditions)</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-observation-value-codes.json.html">Observation Value Codes (SNOMED-CT)</a> </td><td><p><a href="http://www.ihtsdo.org/">Snomed-CT</a> concept codes for coded results</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-observation-ccdasmokingstatus.json.html">Smoking Status</a> </td><td><p>This value set indicates the current smoking status of a patient.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-ndc-vaccine-codes.json.html">Vaccine National Drug Code (NDC)</a> </td><td><p>This value set includes all the Vaccine National Drug Codes (NDC).  This source of this data is provided by the <a href="https://www2a.cdc.gov/vaccines/iis/iisstandards/ndc_crosswalk.asp">CDC</a></p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-narrative-status.json.html">Narrative Status</a> </td><td><p>This value set limits the text status for the resource narrative.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-medication-codes.json.html">Medication Clinical Drug (RxNorm)</a> </td><td><p>All prescribable medication formulations represented using  either a 'generic' or 'brand-specific' concept. This includes RxNorm codes whose Term Type is SCD (semantic clinical drug), SBD (semantic brand drug), GPCK (generic pack), BPCK (brand pack), SCDG (semantic clinical drug group), SBDG (semantic brand drug group), SCDF (semantic clinical drug form), or SBDF (semantic brand drug form)</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-cvx.json.html">Vaccine Administered Value Set (CVX)</a> </td><td><p>This identifies the vaccine substance administered - CVX codes</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-condition-category.json.html">US Core Condition Category Codes</a> </td><td><p>The US core Condition Category Codes support the separate concepts of problems and health concerns in Condition.category in order for API consumers to be able to separate health concerns and problems. However this is not mandatory for 2015 certification</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-careteam-provider-roles.json.html">CareTeam Provider Roles</a> </td><td><p>Provider roles codes consist of NUCC Health Care Provider Taxonomy Code Set for providers and SNOMED-CT for - non clinical and organization roles including codes from the SCTID 125676002 Person (person) heirarchy and the SCTID 394730007 Healthcare related organization (qualifier value) heirarchy.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-us-core-birthsex.json.html">US Core Birth Sex Value Set</a> </td><td><p>Codes for assigning sex at birth as specified by the <a href="https://www.healthit.gov/newsroom/about-onc">Office of the National Coordinator for Health IT (ONC)</a></p>
+</td></tr>
+ <tr><td><a href="ValueSet-simple-language.json.html">Language codes with language and optionally a region modifier</a> </td><td><p>This value set includes codes from <a href="http://tools.ietf.org/html/bcp47">BCP-47</a>. This value set matches the ONC 2015 Edition LanguageCommunication data element value set within C-CDA to use a 2 character language code if one exists,   and a 3 character code if a 2 character code does not exist. It points back to <a href="https://tools.ietf.org/html/rfc5646">RFC 5646</a>, however only the language codes are required, all other elements are optional.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-omb-race-category.json.html">OMB Race Categories</a> </td><td><p>The codes for the concepts 'Unknown' and  'Asked but no answer' and the the codes for the five race categories - 'American Indian' or 'Alaska Native', 'Asian', 'Black or African American', 'Native Hawaiian or Other Pacific Islander', and 'White' - as defined by the <a href="https://www.whitehouse.gov/omb/fedreg_1997standards">OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997</a> .</p>
+</td></tr>
+ <tr><td><a href="ValueSet-omb-ethnicity-category.json.html">OMB Ethnicity Categories</a> </td><td><p>The codes for the ethnicity categories - 'Hispanic or Latino' and 'Non Hispanic or Latino' - as defined by the <a href="https://www.whitehouse.gov/omb/fedreg_1997standards">OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997</a>.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-detailed-race.json.html">US-Core Detailed Race</a> </td><td><p>The 900+ <a href="http://www.cdc.gov/phin/resources/vocabulary/index.html">CDC Race codes</a> that are grouped under one of the 5 OMB race category codes.</p>
+</td></tr>
+ <tr><td><a href="ValueSet-detailed-ethnicity.json.html">US-Core Detailed ethnicity</a> </td><td><p>The 41 <a href="http://www.cdc.gov/phin/resources/vocabulary/index.html">CDC ethnicity codes</a> that are grouped under one of the 2 OMB ethnicity category codes.</p>
+</td></tr>

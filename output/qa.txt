@@ -1,0 +1,727 @@
+﻿US Core : Validation Results
+=========================================
+
+err = , warn = , info = 
+Generated Mon Oct 16 16:55:53 EDT 2017. FHIR version 3.1.0 for 3.0.1
+
+ Build Errors : 0 / 0
+ C:\US-Core_Mine\US-Core\examples\acme-lab : 0 / 7
+ C:\US-Core_Mine\US-Core\examples\allergyintolerance-example : 0 / 11
+ C:\US-Core_Mine\US-Core\examples\blood-glucose : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\blood-pressure : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\bmi : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\bp-data-absent : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\bun : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\careteam-example : 0 / 7
+ C:\US-Core_Mine\US-Core\examples\cbc : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\colonoscopy : 0 / 3
+ C:\US-Core_Mine\US-Core\examples\condition-example : 0 / 5
+ C:\US-Core_Mine\US-Core\examples\encounter-1036 : 0 / 0
+ C:\US-Core_Mine\US-Core\examples\erythrocytes : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\goal-1 : 0 / 3
+ C:\US-Core_Mine\US-Core\examples\hc1 : 0 / 5
+ C:\US-Core_Mine\US-Core\examples\head-circumference : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\heart-rate : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\height : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\hemoglobin : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\hl7east : 0 / 9
+ C:\US-Core_Mine\US-Core\examples\imm-1 : 0 / 5
+ C:\US-Core_Mine\US-Core\examples\length : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\mchc : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\metabolic-panel : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\neutrophils : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\oxygen-saturation : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\patient-example : 0 / 35
+ C:\US-Core_Mine\US-Core\examples\practitioner-1 : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\practitioner-2 : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\rehab : 1 / 3
+ C:\US-Core_Mine\US-Core\examples\respiratory-rate : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\serum-calcium : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\serum-chloride : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\serum-co2 : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\serum-creatinine : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\serum-potassium : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\serum-sodium : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\serum-total-bilirubin : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\some-day-smoker : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\temperature : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\udi-1 : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urinalysis : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\urine-bacteria : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-bilirubin : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-cells : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-clarity : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-color : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-epi-cells : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-glucose : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-hemoglobin : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-ketone : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-leukocyte-esterase : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-nitrite : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-ph : 0 / 7
+ C:\US-Core_Mine\US-Core\examples\urine-protein : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-rbcs : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urine-sediment : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\urine-wbcs : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\urobilinogen : 0 / 7
+ C:\US-Core_Mine\US-Core\examples\uscore-med1 : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\uscore-med2 : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\uscore-mo1 : 0 / 10
+ C:\US-Core_Mine\US-Core\examples\uscore-mo2 : 0 / 12
+ C:\US-Core_Mine\US-Core\examples\uscore-mo3 : 0 / 8
+ C:\US-Core_Mine\US-Core\examples\uscore-ms1 : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\uscore-ms2 : 0 / 6
+ C:\US-Core_Mine\US-Core\examples\uscore-ms3 : 0 / 7
+ C:\US-Core_Mine\US-Core\examples\usg : 0 / 7
+ C:\US-Core_Mine\US-Core\examples\vitals-panel : 0 / 4
+ C:\US-Core_Mine\US-Core\examples\weight : 0 / 4
+ C:\US-Core_Mine\US-Core\resources\allergyintolerance-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\capabilitystatement-client : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\capabilitystatement-server : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\careplan-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\careteam-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\codesystem-careplan-category : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\codesystem-cdcrec : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\codesystem-condition-category : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\conceptmap-ndc-cvx : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\condition-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\device-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\diagnosticreport-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\goal-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\ig : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\immunization-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\location-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\medication-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\medicationrequest-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\medicationstatement-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\observation-us-core-results-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\observation-us-core-smokingstatus-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\organization-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\patient-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\practitioner-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\procedure-us-core-profile-spreadsheet : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\searchparameter-us-core-ethnicity : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\searchparameter-us-core-race : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\structuredefinition-us-core-birthsex : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\structuredefinition-us-core-direct : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\structuredefinition-us-core-ethnicity : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\structuredefinition-us-core-profile-link : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\structuredefinition-us-core-race : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-detailed-ethnicity : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-detailed-race : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-omb-ethnicity : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-omb-race : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-simple-language : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-birthsex : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-careteam-provider-roles : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-condition-category : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-cvx : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-medication-codes : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-narrative-status : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-ndc-vaccine-codes : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-observation-ccdasmokingstatus : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-observation-value-codes : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-problem : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-procedure-code : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-procedure-icd10pcs : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-provider-role : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-provider-specialty : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-substance : 0 / 1
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-substance-ndfrt : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-substance-rxnorm : 0 / 0
+ C:\US-Core_Mine\US-Core\resources\valueset-us-core-substance-sct : 0 / 0
+</table>
+== n/a ==
+== C:\US-Core_Mine\US-Core\examples\acme-lab.xml ==
+INFORMATION: Organization/acme-lab: Organization.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Organization/acme-lab: Organization.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Organization/acme-lab: Organization.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Organization/acme-lab: Organization.identifier[1].value[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Organization/acme-lab: Organization.identifier[2].value[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Organization/acme-lab: Organization.type[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Organization/acme-lab: Organization.address[1].country[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\allergyintolerance-example.xml ==
+WARNING: AllergyIntolerance/example: AllergyIntolerance.code: None of the codes provided are in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-substance (http://hl7.org/fhir/us/core/ValueSet/us-core-substance, and a code should come from this value set unless it has no suitable code) (codes = http://hl7.org/fhir/ndfrt#N0000175503)
+WARNING: AllergyIntolerance/example: AllergyIntolerance.code.coding: Unknown Code System http://hl7.org/fhir/ndfrt
+INFORMATION: AllergyIntolerance/example: AllergyIntolerance.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: AllergyIntolerance/example: AllergyIntolerance.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: AllergyIntolerance/example: AllergyIntolerance.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: AllergyIntolerance/example: AllergyIntolerance.category[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: AllergyIntolerance/example: AllergyIntolerance.criticality[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: AllergyIntolerance/example: AllergyIntolerance.assertedDate[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: AllergyIntolerance/example: AllergyIntolerance.reaction[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: AllergyIntolerance/example: AllergyIntolerance.reaction[1].manifestation[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: AllergyIntolerance/example: AllergyIntolerance.reaction[1].severity[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\blood-glucose.json ==
+WARNING: Observation/blood-glucose: Observation.code: No Message returned
+INFORMATION: Observation/blood-glucose: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/blood-glucose: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/blood-glucose: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/blood-glucose: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/blood-glucose: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/blood-glucose: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/blood-glucose: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\blood-pressure.json ==
+INFORMATION: Observation/blood-pressure: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/blood-pressure: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/blood-pressure: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/blood-pressure: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\bmi.json ==
+INFORMATION: Observation/bmi: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bmi: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bmi: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bmi: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\bp-data-absent.json ==
+INFORMATION: Observation/bp-data-absent: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bp-data-absent: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bp-data-absent: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bp-data-absent: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\bun.json ==
+WARNING: Observation/bun: Observation.code: No Message returned
+INFORMATION: Observation/bun: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bun: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bun: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bun: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bun: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bun: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/bun: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\careteam-example.xml ==
+WARNING: CareTeam/example: CareTeam.participant[1].role: The display "Allopathic &amp; Osteopathic Physicians:Internal Medicine:Cardiovascular Disease" is not a valid display for the code {http://nucc.org/provider-taxonomy}207RC0000X
+WARNING: CareTeam/example: CareTeam.participant[2].role: The display "Allopathic &amp; Osteopathic Physicians:General Practice" is not a valid display for the code {http://nucc.org/provider-taxonomy}208D00000X
+WARNING: CareTeam/example: CareTeam.participant[3].role: No Message returned
+INFORMATION: CareTeam/example: CareTeam.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: CareTeam/example: CareTeam.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: CareTeam/example: CareTeam.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: CareTeam/example: CareTeam.name[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\cbc.json ==
+WARNING: DiagnosticReport/cbc: DiagnosticReport.code: No Message returned
+INFORMATION: DiagnosticReport/cbc: DiagnosticReport.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: DiagnosticReport/cbc: DiagnosticReport.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: DiagnosticReport/cbc: DiagnosticReport.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\colonoscopy.xml ==
+INFORMATION: CarePlan/colonoscopy: CarePlan.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: CarePlan/colonoscopy: CarePlan.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: CarePlan/colonoscopy: CarePlan.text[1].div[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\condition-example.xml ==
+WARNING: Condition/example: Condition.code: No Message returned
+INFORMATION: Condition/example: Condition.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Condition/example: Condition.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Condition/example: Condition.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Condition/example: Condition.assertedDate[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\encounter-1036.xml ==
+== C:\US-Core_Mine\US-Core\examples\erythrocytes.json ==
+WARNING: Observation/erythrocytes: Observation.code: No Message returned
+INFORMATION: Observation/erythrocytes: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/erythrocytes: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/erythrocytes: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/erythrocytes: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/erythrocytes: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/erythrocytes: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/erythrocytes: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\goal-1.xml ==
+INFORMATION: Goal/goal-1: Goal.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Goal/goal-1: Goal.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Goal/goal-1: Goal.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\hc1.xml ==
+WARNING: Condition/hc1: Condition.code: No code provided, and a code should be provided from the value set http://hl7.org/fhir/us/core/ValueSet/us-core-problem (http://hl7.org/fhir/us/core/ValueSet/us-core-problem
+INFORMATION: Condition/hc1: Condition.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Condition/hc1: Condition.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Condition/hc1: Condition.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Condition/hc1: Condition.onsetDateTime[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\head-circumference.json ==
+INFORMATION: Observation/head-circumference: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/head-circumference: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/head-circumference: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/head-circumference: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\heart-rate.json ==
+INFORMATION: Observation/heart-rate: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/heart-rate: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/heart-rate: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/heart-rate: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\height.json ==
+INFORMATION: Observation/height: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/height: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/height: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/height: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\hemoglobin.json ==
+WARNING: Observation/hemoglobin: Observation.code: No Message returned
+INFORMATION: Observation/hemoglobin: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/hemoglobin: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/hemoglobin: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/hemoglobin: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/hemoglobin: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/hemoglobin: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/hemoglobin: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\hl7east.xml ==
+INFORMATION: Location/hl7east: Location.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Location/hl7east: Location.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Location/hl7east: Location.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Location/hl7east: Location.identifier[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Location/hl7east: Location.description[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Location/hl7east: Location.address[1].country[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Location/hl7east: Location.position[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Location/hl7east: Location.position[1].longitude[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Location/hl7east: Location.position[1].latitude[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\imm-1.json ==
+WARNING: Immunization/imm-1: Immunization.vaccineCode.coding[1]: Unknown Code System http://hl7.org/fhir/sid/cvx
+WARNING: Immunization/imm-1: Immunization.vaccineCode.coding[2]: Unknown Code System http://hl7.org/fhir/sid/ndc
+INFORMATION: Immunization/imm-1: Immunization.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Immunization/imm-1: Immunization.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Immunization/imm-1: Immunization.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\length.json ==
+INFORMATION: Observation/length: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/length: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/length: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/length: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\mchc.json ==
+WARNING: Observation/mchc: Observation.code: No Message returned
+INFORMATION: Observation/mchc: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/mchc: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/mchc: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/mchc: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/mchc: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/mchc: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/mchc: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\metabolic-panel.json ==
+WARNING: DiagnosticReport/metabolic-panel: DiagnosticReport.code: No Message returned
+INFORMATION: DiagnosticReport/metabolic-panel: DiagnosticReport.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: DiagnosticReport/metabolic-panel: DiagnosticReport.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: DiagnosticReport/metabolic-panel: DiagnosticReport.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\neutrophils.json ==
+WARNING: Observation/neutrophils: Observation.code: No Message returned
+INFORMATION: Observation/neutrophils: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/neutrophils: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/neutrophils: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/neutrophils: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/neutrophils: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/neutrophils: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/neutrophils: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\oxygen-saturation.json ==
+INFORMATION: Observation/oxygen-saturation: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/oxygen-saturation: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/oxygen-saturation: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/oxygen-saturation: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\patient-example.xml ==
+INFORMATION: Patient/example: Patient.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[1].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[1].valueCoding[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[2].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[2].valueCoding[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[3].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[3].valueCoding[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[4]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[4].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[4].valueCoding[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[5]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[5].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[5].valueCoding[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[6].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[1].extension[6].valueString[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].extension[1].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].extension[1].valueCoding[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].extension[2]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].extension[2].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].extension[2].valueCoding[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].extension[3]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].extension[3].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].extension[3].valueCoding[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].extension[4].url[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.extension[2].extension[4].valueString[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.identifier[1].use[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.identifier[1].type[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.active[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.telecom[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.telecom[2]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Patient/example: Patient.address[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\practitioner-1.xml ==
+INFORMATION: Practitioner/practitioner-1: Practitioner.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Practitioner/practitioner-1: Practitioner.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Practitioner/practitioner-1: Practitioner.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Practitioner/practitioner-1: Practitioner.name[1].given[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Practitioner/practitioner-1: Practitioner.name[1].prefix[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Practitioner/practitioner-1: Practitioner.address[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\practitioner-2.xml ==
+INFORMATION: Practitioner/practitioner-2: Practitioner.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Practitioner/practitioner-2: Practitioner.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Practitioner/practitioner-2: Practitioner.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Practitioner/practitioner-2: Practitioner.name[1].given[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Practitioner/practitioner-2: Practitioner.name[1].prefix[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Practitioner/practitioner-2: Practitioner.address[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\rehab.xml ==
+ERROR: Procedure/rehab: Procedure.code: None of the codes provided are in the maximum value set http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-code (http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-code, and a code from this value set is required) (codes = http://snomed.info/sct#35637008, http://www.icd10data.com/icd10pcs#HZ30ZZZ)
+INFORMATION: Procedure/rehab: Procedure.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Procedure/rehab: Procedure.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Procedure/rehab: Procedure.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\respiratory-rate.json ==
+INFORMATION: Observation/respiratory-rate: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/respiratory-rate: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/respiratory-rate: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/respiratory-rate: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\serum-calcium.json ==
+WARNING: Observation/serum-calcium: Observation.code: No Message returned
+INFORMATION: Observation/serum-calcium: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-calcium: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-calcium: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-calcium: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-calcium: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-calcium: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-calcium: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\serum-chloride.json ==
+WARNING: Observation/serum-chloride: Observation.code: No Message returned
+INFORMATION: Observation/serum-chloride: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-chloride: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-chloride: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-chloride: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-chloride: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-chloride: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-chloride: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\serum-co2.json ==
+WARNING: Observation/serum-co2: Observation.code: No Message returned
+INFORMATION: Observation/serum-co2: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-co2: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-co2: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-co2: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-co2: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-co2: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-co2: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\serum-creatinine.json ==
+WARNING: Observation/serum-creatinine: Observation.code: No Message returned
+INFORMATION: Observation/serum-creatinine: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-creatinine: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-creatinine: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-creatinine: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-creatinine: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-creatinine: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-creatinine: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\serum-potassium.json ==
+WARNING: Observation/serum-potassium: Observation.code: No Message returned
+INFORMATION: Observation/serum-potassium: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-potassium: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-potassium: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-potassium: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-potassium: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-potassium: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-potassium: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\serum-sodium.json ==
+WARNING: Observation/serum-sodium: Observation.code: No Message returned
+INFORMATION: Observation/serum-sodium: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-sodium: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-sodium: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-sodium: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-sodium: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-sodium: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-sodium: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\serum-total-bilirubin.json ==
+WARNING: Observation/serum-total-bilirubin: Observation.code: No Message returned
+INFORMATION: Observation/serum-total-bilirubin: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-total-bilirubin: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-total-bilirubin: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-total-bilirubin: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-total-bilirubin: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-total-bilirubin: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/serum-total-bilirubin: Observation.referenceRange[1].appliesTo[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\some-day-smoker.json ==
+INFORMATION: Observation/some-day-smoker: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/some-day-smoker: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/some-day-smoker: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/some-day-smoker: Observation.category[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\temperature.json ==
+INFORMATION: Observation/temperature: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/temperature: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/temperature: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/temperature: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\udi-1.xml ==
+WARNING: Device/udi-1: Device.type: No Message returned
+INFORMATION: Device/udi-1: Device.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Device/udi-1: Device.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Device/udi-1: Device.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Device/udi-1: Device.udi[1].carrierHRF[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Device/udi-1: Device.status[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urinalysis.json ==
+WARNING: DiagnosticReport/urinalysis: DiagnosticReport.code: No Message returned
+INFORMATION: DiagnosticReport/urinalysis: DiagnosticReport.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: DiagnosticReport/urinalysis: DiagnosticReport.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: DiagnosticReport/urinalysis: DiagnosticReport.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-bacteria.json ==
+WARNING: Observation/urine-bacteria: Observation.code: No Message returned
+INFORMATION: Observation/urine-bacteria: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-bacteria: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-bacteria: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-bacteria: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-bacteria: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-bilirubin.json ==
+WARNING: Observation/urine-bilirubin: Observation.code: No Message returned
+INFORMATION: Observation/urine-bilirubin: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-bilirubin: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-bilirubin: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-bilirubin: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-bilirubin: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-cells.json ==
+WARNING: Observation/urine-cells: Observation.code: No Message returned
+INFORMATION: Observation/urine-cells: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-cells: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-cells: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-cells: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-cells: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-clarity.json ==
+WARNING: Observation/urine-clarity: Observation.code: No Message returned
+INFORMATION: Observation/urine-clarity: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-clarity: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-clarity: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-clarity: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-clarity: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-color.json ==
+WARNING: Observation/urine-color: Observation.code: No Message returned
+INFORMATION: Observation/urine-color: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-color: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-color: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-color: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-color: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-epi-cells.json ==
+WARNING: Observation/urine-epi-cells: Observation.code: No Message returned
+INFORMATION: Observation/urine-epi-cells: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-epi-cells: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-epi-cells: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-epi-cells: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-epi-cells: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-glucose.json ==
+WARNING: Observation/urine-glucose: Observation.code: No Message returned
+INFORMATION: Observation/urine-glucose: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-glucose: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-glucose: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-glucose: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-glucose: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-hemoglobin.json ==
+WARNING: Observation/urine-hemoglobin: Observation.code: No Message returned
+INFORMATION: Observation/urine-hemoglobin: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-hemoglobin: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-hemoglobin: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-hemoglobin: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-hemoglobin: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-ketone.json ==
+WARNING: Observation/urine-ketone: Observation.code: No Message returned
+INFORMATION: Observation/urine-ketone: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-ketone: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-ketone: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-ketone: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-ketone: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-leukocyte-esterase.json ==
+WARNING: Observation/urine-leukocyte-esterase: Observation.code: No Message returned
+INFORMATION: Observation/urine-leukocyte-esterase: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-leukocyte-esterase: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-leukocyte-esterase: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-leukocyte-esterase: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-leukocyte-esterase: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-nitrite.json ==
+WARNING: Observation/urine-nitrite: Observation.code: No Message returned
+INFORMATION: Observation/urine-nitrite: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-nitrite: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-nitrite: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-nitrite: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-nitrite: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-ph.json ==
+WARNING: Observation/urine-ph: Observation.code: No Message returned
+INFORMATION: Observation/urine-ph: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-ph: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-ph: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-ph: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-ph: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-ph: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-protein.json ==
+WARNING: Observation/urine-protein: Observation.code: No Message returned
+INFORMATION: Observation/urine-protein: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-protein: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-protein: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-protein: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-protein: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-rbcs.json ==
+WARNING: Observation/urine-rbcs: Observation.code: No Message returned
+INFORMATION: Observation/urine-rbcs: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-rbcs: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-rbcs: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-rbcs: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-rbcs: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-sediment.json ==
+WARNING: Observation/urine-sediment: Observation.code: No Message returned
+INFORMATION: Observation/urine-sediment: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-sediment: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-sediment: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urine-wbcs.json ==
+WARNING: Observation/urine-wbcs: Observation.code: No Message returned
+INFORMATION: Observation/urine-wbcs: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-wbcs: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-wbcs: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-wbcs: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urine-wbcs: Observation.referenceRange[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\urobilinogen.json ==
+WARNING: Observation/urobilinogen: Observation.code: No Message returned
+INFORMATION: Observation/urobilinogen: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urobilinogen: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urobilinogen: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urobilinogen: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urobilinogen: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/urobilinogen: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\uscore-med1.xml ==
+WARNING: Medication/uscore-med1: Medication.code: No Message returned
+INFORMATION: Medication/uscore-med1: Medication.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Medication/uscore-med1: Medication.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Medication/uscore-med1: Medication.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\uscore-med2.xml ==
+WARNING: Medication/uscore-med2: Medication.code: No Message returned
+INFORMATION: Medication/uscore-med2: Medication.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Medication/uscore-med2: Medication.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Medication/uscore-med2: Medication.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\uscore-mo1.xml ==
+WARNING: MedicationRequest/uscore-mo1: MedicationRequest.medicationCodeableConcept: No Message returned
+INFORMATION: MedicationRequest/uscore-mo1: MedicationRequest.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo1: MedicationRequest.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo1: MedicationRequest.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo1: MedicationRequest.intent[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo1: MedicationRequest.dosageInstruction[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo1: MedicationRequest.dispenseRequest[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo1: MedicationRequest.dispenseRequest[1].numberOfRepeatsAllowed[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo1: MedicationRequest.dispenseRequest[1].quantity[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo1: MedicationRequest.dispenseRequest[1].expectedSupplyDuration[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\uscore-mo2.xml ==
+WARNING: MedicationRequest/uscore-mo2: MedicationRequest.medicationReference.contained.code: No Message returned
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.contained[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.contained[1].id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.intent[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.dosageInstruction[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.dispenseRequest[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.dispenseRequest[1].numberOfRepeatsAllowed[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.dispenseRequest[1].quantity[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationRequest/uscore-mo2: MedicationRequest.dispenseRequest[1].expectedSupplyDuration[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\uscore-mo3.xml ==
+WARNING: Bundle/uscore-mo3: Bundle.entry[2].resource.code: No Message returned
+INFORMATION: Bundle/uscore-mo3: Bundle.entry[1].resource[1].id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-mo3: Bundle.entry[1].resource[1].meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-mo3: Bundle.entry[1].resource[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-mo3: Bundle.entry[1].resource[1].intent[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-mo3: Bundle.entry[2].resource[1].id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-mo3: Bundle.entry[2].resource[1].meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-mo3: Bundle.entry[2].resource[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\uscore-ms1.xml ==
+WARNING: MedicationStatement/uscore-ms1: MedicationStatement.medicationCodeableConcept: No Message returned
+INFORMATION: MedicationStatement/uscore-ms1: MedicationStatement.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationStatement/uscore-ms1: MedicationStatement.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationStatement/uscore-ms1: MedicationStatement.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\uscore-ms2.xml ==
+WARNING: MedicationStatement/uscore-ms2: MedicationStatement.medicationReference.contained.code: No Message returned
+INFORMATION: MedicationStatement/uscore-ms2: MedicationStatement.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationStatement/uscore-ms2: MedicationStatement.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationStatement/uscore-ms2: MedicationStatement.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationStatement/uscore-ms2: MedicationStatement.contained[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: MedicationStatement/uscore-ms2: MedicationStatement.contained[1].id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\uscore-ms3.xml ==
+WARNING: Bundle/uscore-ms3: Bundle.entry[2].resource.code: No Message returned
+INFORMATION: Bundle/uscore-ms3: Bundle.entry[1].resource[1].id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-ms3: Bundle.entry[1].resource[1].meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-ms3: Bundle.entry[1].resource[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-ms3: Bundle.entry[2].resource[1].id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-ms3: Bundle.entry[2].resource[1].meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Bundle/uscore-ms3: Bundle.entry[2].resource[1].text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\usg.json ==
+WARNING: Observation/usg: Observation.code: No Message returned
+INFORMATION: Observation/usg: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/usg: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/usg: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/usg: Observation.referenceRange[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/usg: Observation.referenceRange[1].low[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/usg: Observation.referenceRange[1].high[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\vitals-panel.json ==
+INFORMATION: Observation/vitals-panel: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/vitals-panel: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/vitals-panel: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/vitals-panel: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\examples\weight.json ==
+INFORMATION: Observation/weight: Observation.id[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/weight: Observation.meta[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/weight: Observation.text[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+INFORMATION: Observation/weight: Observation.context[1]: Instance includes element that is not marked as 'mustSupport' and was validated against profiles declaring mustSupport=true
+== C:\US-Core_Mine\US-Core\resources\allergyintolerance-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\allergyintolerance-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\allergyintolerance-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance ("US  Core AllergyIntolerance Profile")
+== C:\US-Core_Mine\US-Core\resources\capabilitystatement-client.xml ==
+== C:\US-Core_Mine\US-Core\resources\capabilitystatement-server.xml ==
+== C:\US-Core_Mine\US-Core\resources\careplan-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\careplan-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\careplan-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan ("US Core CarePlan Profile")
+== C:\US-Core_Mine\US-Core\resources\careteam-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\careteam-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\careteam-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam ("US  Core CareTeam Profile")
+== C:\US-Core_Mine\US-Core\resources\codesystem-careplan-category.xml ==
+== C:\US-Core_Mine\US-Core\resources\codesystem-cdcrec.xml ==
+== C:\US-Core_Mine\US-Core\resources\codesystem-condition-category.xml ==
+== C:\US-Core_Mine\US-Core\resources\conceptmap-ndc-cvx.xml ==
+== C:\US-Core_Mine\US-Core\resources\condition-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\condition-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\condition-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition ("US  Core Condition (a.k.a Problem) Profile")
+== C:\US-Core_Mine\US-Core\resources\device-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\device-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\device-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-device ("US  Core Device Profile")
+== C:\US-Core_Mine\US-Core\resources\diagnosticreport-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\diagnosticreport-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\diagnosticreport-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport ("US  Core DiagnosticReport Profile")
+== C:\US-Core_Mine\US-Core\resources\goal-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\goal-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\goal-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal ("US  Core Goal Profile")
+== C:\US-Core_Mine\US-Core\resources\ig.xml ==
+== C:\US-Core_Mine\US-Core\resources\immunization-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\immunization-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\immunization-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization ("US  Core Immunization Profile")
+== C:\US-Core_Mine\US-Core\resources\location-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\location-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\location-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-location ("US  Core Location Profile")
+== C:\US-Core_Mine\US-Core\resources\medication-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\medication-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\medication-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication ("US  Core Medication Profile")
+== C:\US-Core_Mine\US-Core\resources\medicationrequest-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\medicationrequest-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\medicationrequest-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest ("US  Core MedicationRequest Profile")
+== C:\US-Core_Mine\US-Core\resources\medicationstatement-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\medicationstatement-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\medicationstatement-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement ("US  Core MedicationStatement Profile")
+== C:\US-Core_Mine\US-Core\resources\observation-us-core-results-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\observation-us-core-results-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\observation-us-core-results-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults ("US  Core Results Profile")
+== C:\US-Core_Mine\US-Core\resources\observation-us-core-smokingstatus-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\observation-us-core-smokingstatus-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\observation-us-core-smokingstatus-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus ("US  Core Smoking Status Profile")
+== C:\US-Core_Mine\US-Core\resources\organization-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\organization-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\organization-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization ("US Core Organization Profile")
+== C:\US-Core_Mine\US-Core\resources\patient-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\patient-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\patient-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient ("US Core Patient Profile")
+== C:\US-Core_Mine\US-Core\resources\practitioner-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\practitioner-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\practitioner-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner ("US  Core Practitioner Profile")
+== C:\US-Core_Mine\US-Core\resources\procedure-us-core-profile-spreadsheet.xml ==
+INFORMATION: C:\US-Core_Mine\US-Core\resources\procedure-us-core-profile-spreadsheet: Resources generated by processing C:\US-Core_Mine\US-Core\resources\procedure-us-core-profile-spreadsheet:  http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure ("US  Core Procedure Profile")
+== C:\US-Core_Mine\US-Core\resources\searchparameter-us-core-ethnicity.xml ==
+== C:\US-Core_Mine\US-Core\resources\searchparameter-us-core-race.xml ==
+== C:\US-Core_Mine\US-Core\resources\structuredefinition-us-core-birthsex.xml ==
+== C:\US-Core_Mine\US-Core\resources\structuredefinition-us-core-direct.xml ==
+== C:\US-Core_Mine\US-Core\resources\structuredefinition-us-core-ethnicity.xml ==
+== C:\US-Core_Mine\US-Core\resources\structuredefinition-us-core-profile-link.xml ==
+== C:\US-Core_Mine\US-Core\resources\structuredefinition-us-core-race.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-detailed-ethnicity.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-detailed-race.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-omb-ethnicity.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-omb-race.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-simple-language.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-birthsex.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-careteam-provider-roles.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-condition-category.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-cvx.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-medication-codes.xml ==
+WARNING: ValueSet/us-core-medication-codes: ValueSet.meta.profile[0]: StructureDefinition reference "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition" could not be resolved
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-narrative-status.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-ndc-vaccine-codes.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-observation-ccdasmokingstatus.xml ==
+WARNING: ValueSet/us-core-observation-ccdasmokingstatus: ValueSet.meta.profile[0]: StructureDefinition reference "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition" could not be resolved
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-observation-value-codes.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-problem.xml ==
+WARNING: ValueSet/us-core-problem: ValueSet.meta.profile[0]: StructureDefinition reference "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition" could not be resolved
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-procedure-code.xml ==
+WARNING: ValueSet/us-core-procedure-code: ValueSet.meta.profile[0]: StructureDefinition reference "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition" could not be resolved
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-procedure-icd10pcs.xml ==
+WARNING: ValueSet/us-core-procedure-icd10pcs: ValueSet.meta.profile[0]: StructureDefinition reference "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition" could not be resolved
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-provider-role.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-provider-specialty.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-substance.xml ==
+WARNING: ValueSet/us-core-substance: ValueSet.meta.profile[0]: StructureDefinition reference "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition" could not be resolved
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-substance-ndfrt.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-substance-rxnorm.xml ==
+== C:\US-Core_Mine\US-Core\resources\valueset-us-core-substance-sct.xml ==

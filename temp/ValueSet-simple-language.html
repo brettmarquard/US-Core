@@ -1,0 +1,40 @@
+---
+# jekyll header
+---
+
+{% include header.html %}
+
+<!-- ============BreadCrumbs=============== -->
+
+{% include container-start.html %}
+
+  <!-- ============CONTENT CONTENT=============== -->
+
+<!--
+<h2>Language codes with language and optionally a region modifier</h2>
+
+<p>
+Formats: <a href="ValueSet-simple-language.xml.html">XML</a>, <a href="ValueSet-simple-language.json.html">JSON</a>, <a href="ValueSet-simple-language.ttl.html">Turtle</a>
+</p>
+
+-->
+
+<!-- include ValueSet-simple-language-html.xhtml   -->
+
+{% include ValueSet-simple-language-summary.xhtml %}
+
+This value set is used by:
+
+{% include ValueSet-simple-language-xref.xhtml %}
+
+{% include ValueSet-simple-language-cld.xhtml %}
+
+<h3>Expansion</h3>
+
+{% include ValueSet-simple-language-expansion.xhtml %}
+
+  <!-- ==============END CONTENT END CONTENT=================== -->
+
+{% include container-end.html %}
+
+{% include footer.html %}

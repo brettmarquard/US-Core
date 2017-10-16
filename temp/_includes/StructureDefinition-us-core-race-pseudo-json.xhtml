@@ -1,0 +1,19 @@
+ // <span style="color: navy; opacity: 0.8">US Core Race Extension</span>
+ {
+    "<a href="StructureDefinition-us-core-race.html|US Core Race Extension#Extension.id" title="unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces" class="dict"><span style="text-decoration: underline">id</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/??.html#string">string</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">xml:id (or equivalent in JSON)</span>
+    "extension": [
+      { // <span style="color: navy; opacity: 0.8">American Indian or Alaska Native|Asian|Black or African American|Native Hawaiian or Other Pacific Islander|White</span>
+        "url": "null",
+        "<a href="StructureDefinition-us-core-race.html|US Core Race Extension#Extension.extension.valueCoding" title="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)" class="dict"><span style="text-decoration: underline">valueCoding</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/??.html#Coding">Coding</a></span>} <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/us/core/ValueSet/omb-race-category.html" style="color: navy">Value of extension</a></span>
+      },
+      { // <span style="color: navy; opacity: 0.8">Extended race codes</span>
+        "url": "null",
+        "<a href="StructureDefinition-us-core-race.html|US Core Race Extension#Extension.extension.valueCoding" title="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)" class="dict"><span style="text-decoration: underline">valueCoding</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/??.html#Coding">Coding</a></span>} <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/us/core/ValueSet/detailed-race.html" style="color: navy">Value of extension</a></span>
+      },
+      { // <span style="color: navy; opacity: 0.8"> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: brown" title="This element is an array in the base standard, but the profile only allows on element"><b>Only One!</b></span> Race Text</span>
+        "url": "null",
+        "<a href="StructureDefinition-us-core-race.html|US Core Race Extension#Extension.extension.valueString" title="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)" class="dict"><span style="text-decoration: underline">valueString</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/STU3/??.html#string">string</a></span>&gt;" <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Value of extension</span>
+      }
+    ],
+    "<a href="StructureDefinition-us-core-race.html|US Core Race Extension#Extension.url" title="Source of the definition for the extension code - a logical name or a URL" class="dict"><span style="text-decoration: underline">url</span></a>" : "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race", <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span>
+  }
