@@ -43,11 +43,11 @@ Thumbs.db
 #############################################
 
 qa
-temp
-output
+#temp#
+#output#
 archive
 sandbox
-capstmnt_markup
+#capstmnt_markup#
 # Altova files #
 ################
 *.spp
