@@ -18,8 +18,8 @@ GitHub will automatically trigger a new build whenever you commit changes.
 
 ### Find your rendered IG automatically available at
 
-http://build.fhir.org/ig/HL7/US-Core
+http://build.fhir.org/ig/brettmarquard/US-Core/index.html
 
 ### For a build log see
 
-http://build.fhir.org/ig/HL7/US-Core/build.log
+http://build.fhir.org/ig/brettmarquard/US-Core/build.log
